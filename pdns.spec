@@ -44,6 +44,7 @@ BuildRequires: protobuf-compiler
 BuildRequires: protobuf-devel
 BuildRequires: libcurl-devel
 BuildRequires: systemd
+BuildRequires: systemd-devel
 
 Provides: powerdns = %{version}-%{release}
 %global backends %{backends} bind
